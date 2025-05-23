@@ -1,1 +1,81 @@
-# ESTACIO
+#include <stdio.h>
+
+int main() {
+
+char estado1, estado2;
+char codigo1[4], codigo2[4];
+char nome1[50], nome2[50];
+int pop1, pop2;
+float area1, area2;
+float pib1, pib2;
+int pontos1, pontos2;
+
+// Primeiro card
+printf("Digite os dados da primeira carta:\n");
+
+printf("Estado (A-H): ");
+scanf(" %c", &estado1);
+
+printf("Codigo da Carta: ");
+scanf("%s", codigo1);
+
+printf("Nome da cidade: ");
+scanf(" %[^\n]", nome1);
+
+printf("Populacao: ");
+scanf("%d", &pop1);
+
+printf("Area: ");
+scanf("%f", &area1);
+
+printf("PIB: ");
+scanf("%f", &pib1);
+
+printf("Pontos turisticos: ");
+scanf("%d", &pontos1);
+
+// Segundo card
+printf("\nDigite os dados da segunda carta:\n");
+
+printf("Estado (A-H): ");
+scanf(" %c", &estado2);
+
+printf("Codigo da Carta: ");
+scanf("%s", codigo2);
+
+printf("Nome da cidade: ");
+scanf(" %[^\n]", nome2);
+
+printf("Populacao: ");
+scanf("%d", &pop2);
+
+printf("Area: ");
+scanf("%f", &area2);
+
+printf("PIB: ");
+scanf("%f", &pib2);
+
+printf("Pontos turisticos: ");
+scanf("%d", &pontos2);
+
+// mostrando os dados
+printf("\nCarta 1:\n");
+printf("Estado: %c\n", estado1);
+printf("Codigo: %s\n", codigo1);
+printf("Cidade: %s\n", nome1);
+printf("Populacao: %d\n", pop1);
+printf("Area: %.2f\n", area1);
+printf("PIB: %.2f\n", pib1);
+printf("Turismo: %d\n", pontos1);
+
+printf("\nCarta 2:\n");
+printf("Estado: %c\n", estado2);
+printf("Codigo: %s\n", codigo2);
+printf("Cidade: %s\n", nome2);
+printf("Populacao: %d\n", pop2);
+printf("Area: %.2f\n", area2);
+printf("PIB: %.2f\n", pib2);
+printf("Turismo: %d\n", pontos2);
+
+return 0;
+}
