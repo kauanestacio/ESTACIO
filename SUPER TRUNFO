@@ -10,10 +10,10 @@ float area1, area2;
 float pib1, pib2;
 int pontos1, pontos2;
 
-// Primeiro card
+// Primeiro carta
 printf("Digite os dados da primeira carta:\n");
 
-printf("Estado (A-H): ");
+printf("Estado (A-B): ");
 scanf(" %c", &estado1);
 
 printf("Codigo da Carta: ");
@@ -34,10 +34,10 @@ scanf("%f", &pib1);
 printf("Pontos turisticos: ");
 scanf("%d", &pontos1);
 
-// Segundo card
+// Segunda Carta
 printf("\nDigite os dados da segunda carta:\n");
 
-printf("Estado (A-H): ");
+printf("Estado (A-B): ");
 scanf(" %c", &estado2);
 
 printf("Codigo da Carta: ");
@@ -58,7 +58,7 @@ scanf("%f", &pib2);
 printf("Pontos turisticos: ");
 scanf("%d", &pontos2);
 
-// mostrando os dados
+//  dados
 printf("\nCarta 1:\n");
 printf("Estado: %c\n", estado1);
 printf("Codigo: %s\n", codigo1);
